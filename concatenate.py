@@ -10,5 +10,11 @@ def ft_concatenate1(l_strings, d):
     res = d.join(l_strings)
     return res
 
+x=10**70000
+x=str(x)
+d="_"
+%prun ft_concatenate(x,d)
+%prun ft_concantenate1(x,d)
+
 
     
